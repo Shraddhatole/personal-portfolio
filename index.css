@@ -1,0 +1,107 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+    
+}
+body{
+	background-image: url("hinata2.jpg");
+	background-position: centre centre ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.name{
+	height: 100vh;
+	width: 100%;
+}
+
+h1{
+	font-family: sans-serif ;
+    color: black;
+
+}
+nav{
+	display: flex;
+	align-items: centre;
+   justify-content: space-between;    
+   padding-top: 45px;
+   padding-left: 8%;
+   padding-right: 8%;
+
+}
+.logo{
+	color: floralwhite;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	font-weight: bold;   
+}
+span{
+	color: #f9004d;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding:10px 20px ;
+	color: black;
+	
+}
+nav ul li a{
+	color: floralwhite;
+	font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+
+.btn{
+	background-color: #f9004d;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid transparent;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 35px;
+	transition: transform .4s;
+}
+.btn:hover{
+	background-color:black ;
+	transition: .4s;
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-90px);
+}
+
+h1{
+	color: white;
+ 	margin: 5px 5px 2px 0px ;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+h2{
+	font-family: sans-serif;
+	font-weight: 20px;
+	color: antiquewhite;
+    margin-bottom: 20px ;
+    letter-spacing: 2px;
+}
+h3{
+	/*font-family: sans-serif;*/
+	font-weight: 8px;
+	color: antiquewhite;
+    margin-bottom: 10px ;
+    letter-spacing: 1px;
+
+}
